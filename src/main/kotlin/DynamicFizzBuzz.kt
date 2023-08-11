@@ -1,6 +1,11 @@
 fun main(args: Array<String>) {
+    println("Enter the first number")
+    var num1:Int = readln().toInt()
 
-    for (x in 1..100){
+    println("Enter the second number")
+    var num2:Int = readln().toInt()
+
+    for (x in num1..num2){
         if(x % 5 == 0 && x % 3 ==0 ){
             println("$x is FizzBuzz")
             continue
