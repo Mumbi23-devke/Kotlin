@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
             println("$x is Fizz")
             continue
         }
-        else if (x % 5==0){
+        else if (x % 5 == 0){
             println("$x is Buzz")
             continue
         }

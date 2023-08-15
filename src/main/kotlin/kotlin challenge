@@ -1,0 +1,77 @@
+
+
+    1. Greeting Program: Write a Kotlin program that asks the user for their name and then prints a personalized greeting,
+     like "Hello, [Name]!" DONE
+
+   * 2. Simple Calculator: Create a Kotlin program that takes two numbers and an operator (+, -, *, /) as input, and then
+    performs the corresponding operation and displays the result.
+
+    *3. Even or Odd Checker: Write a Kotlin function that takes an integer as input and determines whether it's even or odd,
+     then prints the result.
+
+    4. List Manipulation: Create a Kotlin program that initializes a list of numbers, then adds all the even numbers from
+    the list into a new list and prints it.
+
+    5. Character Counter: Write a Kotlin function that takes a string as input and counts the number of occurrences of a
+    specific character within the string, then displays the count.
+
+    6.  Vowel or Consonant Checker: Write a Kotlin function that takes a single character (letter) as input and determines
+     whether it's a vowel or a consonant. Print the result.
+
+
+fun main(args: Array<String>) {
+    println("Enter a number")
+    var number:Int = readln().toInt()
+
+    if (number % 2 == 0) {
+        println("$number is an even number")
+
+
+    else if  (number % 2 == 1){
+        println("$number is an odd number")
+        }
+
+    }
+     else{
+         println("Try again")
+    }
+
+}
+
+fun main(args: Array<String>) {
+    println("Enter first number")
+    var num1:Float = readln().toFloat()
+
+    println("Enter an operator")
+
+    println("Enter second number")
+    var num2:Float = readln().toFloat()
+
+
+    var result = num1 - num2
+    var result2 = num1 + num2
+    var result3 = num1 * num2
+    var result4 = num1 / num2
+
+    println(result)
+    println(result2)
+    println(result3)
+    println(result4)
+
+    if (/){
+        println(result4)
+    }
+    else if(-){
+        println(result)
+    }
+    else if (*){
+        println(result3)
+    }
+    else if (+){
+        println(result2)
+    }
+    else{
+        println("Try again")
+    }
+
+}
