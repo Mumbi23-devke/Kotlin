@@ -1,4 +1,4 @@
-package OOP
+package OOP.Inheritance
 
 class Car(make:String, model:String, price:Int) {
     init {

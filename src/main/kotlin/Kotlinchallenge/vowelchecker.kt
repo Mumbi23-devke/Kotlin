@@ -2,14 +2,18 @@ package Kotlinchallenge
 
 fun main(args: Array<String>) {
     println("Enter any letter")
-    var letter1:Char = 'a'
-    var letter2:Char = 'z'
+    val letter = readln().toString().trim()
 
-    if ( letter1 in listOf<Char>('a','e','i','o','u'))
-        println("$letter1 is a vowel")
-    else{
-        println("$letter1 is a consonant")
+    if ( letter.isBlank())
+        println("Empty submission. Try again")
+    else {
+        val char = letter[0].toLowerCase()
+
+        val result = if (char in "a,e,i,o,u") {
+            println("$char is a vowel")
+        } else {
+            println("$char is a consonant")
+        }
     }
-
 }
 

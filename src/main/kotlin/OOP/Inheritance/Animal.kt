@@ -1,4 +1,4 @@
-package OOP
+package OOP.Inheritance
 
 open class Animal(color:String, legs:String, breed:String, gender:String) {
     init {

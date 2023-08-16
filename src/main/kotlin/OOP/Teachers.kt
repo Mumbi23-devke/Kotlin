@@ -1,4 +1,0 @@
-package OOP
-
-class Teachers {
-}

@@ -1,4 +1,4 @@
-package OOP
+package OOP.Inheritance
 
 class House(location:String, type:String, owner:String) {
     init {
