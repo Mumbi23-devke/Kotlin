@@ -20,3 +20,11 @@
 
 
 
+1.Word Reversal: Create a program that takes a sentence as input and prints the words in reverse order.
+
+2. Leap Year Checker: Implement a function that checks if a given year is a leap year.
+
+3.Uppercase Converter: Implement a function that takes a string as input and returns the string with all letters
+converted to uppercase.
+
+4.Reverse Array: Create a function that takes an array of integers as input and returns the array in reverse order.

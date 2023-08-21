@@ -8,7 +8,8 @@ open class People(private val name:String, private val age:Int) {
     }
 
 }
-// Call getpersoninfo instead of name so that it becomes private
+// Call getpersoninfo instead of name so that it becomes visible
+
 fun main(args: Array<String>) {
     val person1 = People("Jamie", 6)
 
